@@ -8,7 +8,7 @@ class EntityTest extends FilesTestCase
 {
 	public function testGetThumbnailUsesDefault()
 	{
-		$expected = HOMEPATH . 'src/Views/thumbnail.jpg';
+		$expected = HOMEPATH . 'src/Assets/Unavailable.jpg';
 		$expected = realpath($expected) ?: $expected;
 
 		$file = new File();
